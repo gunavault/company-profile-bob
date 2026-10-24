@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="28" fill="#000"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#7CC21E" stroke-width="7"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="1.5"/>
+  <!-- ornamen kolom & lengkung -->
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M62 82 V52 a38 26 0 0 1 76 0 V82"/>
+    <path d="M76 82 V58 a24 16 0 0 1 48 0 V82"/>
+    <path d="M56 82 H144"/>
+  </g>
+  <g fill="#7CC21E">
+    <path d="M100 30 l5 9 h-10 z"/>
+    <circle cx="100" cy="64" r="5"/>
+  </g>
+  <text x="100" y="125" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-weight="700" font-size="40" fill="#fff" letter-spacing="1">GRC</text>
+  <text x="100" y="157" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-weight="700" font-size="30" fill="#7CC21E" font-style="italic" letter-spacing="2">CETAK</text>
+</svg>

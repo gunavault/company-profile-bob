@@ -1,0 +1,26 @@
+{
+  "name": "grccetak",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "@vercel/blob": "^2.8.2",
+    "bcryptjs": "^3.0.2",
+    "next": "^15.5.28",
+    "react": "^19.1.10",
+    "react-dom": "^19.1.10",
+    "sanitize-html": "^2.17.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.31",
+    "zod": "^4.6.6"
+  }
+}
